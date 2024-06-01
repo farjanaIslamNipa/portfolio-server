@@ -6,7 +6,7 @@ import { ProjectValidations } from './projects.validation'
 const router = express.Router()
 
 router.post(
-  '/create-Project',
+  '/create-project',
   ProjectControllers.createProject
   )
 router.get('/', ProjectControllers.getAllProjects)
